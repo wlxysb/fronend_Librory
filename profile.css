@@ -1,0 +1,52 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 200px; /* Укажите размеры вашей фотографии */
+  height: 200px;
+  border-radius: 50%; /* Создание круглой формы */
+  overflow: hidden;
+
+}
+
+img{
+  width: 100%; /* Заполнение круглой области */
+  height: auto;
+}
+body{
+  background-image: url('библиотека.jpg');
+
+}
+
+.user-info {
+  margin-left: 20px;
+  background-color: #f2f2f2; /* Цвет формы с информацией */
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.user-details {
+  margin-top: 20px;
+}
+
+.user-details-box {
+  background-color: #f2f2f2; /* Цвет формы с информацией */
+  padding: 20px;
+  border-radius: 10px; /* Скругленные углы */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
